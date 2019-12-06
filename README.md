@@ -4,10 +4,12 @@
   (ubuntu 18.04)
   It will also push image back to richliu docker.io, please change it accordingly. 
 
-  If want to use my build image on k8s directly, try following command 
-  $ wget https://run.linkerd.io/emojivoto.yml
-  $ sed -i "s/buoyantio/richliu/g" emojivoto.yml
-  $ kubectl apply -f emojivoto.yml
+  If want to use my build image on k8s directly, try following commands
+  ```bash
+  wget https://run.linkerd.io/emojivoto.yml
+  sed -i "s/buoyantio/richliu/g" emojivoto.yml
+  kubectl apply -f emojivoto.yml
+  ```
 
 # Emoji.voto
 
