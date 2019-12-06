@@ -1,3 +1,10 @@
+* Notice
+
+  This commit only support ARM64 environment and it can make build on ARM64 environment. 
+  (ubuntu 18.04)
+  It will also push image back to richliu docker.io, please change it accordingly. 
+
+
 # Emoji.voto
 
 A microservice application that allows users to vote for their favorite emoji,
